@@ -1,0 +1,22 @@
+{
+  "repository": "https://github.com/d00rsfan/BiglyBTC-plugin-mlDHT",
+  "local_review_commit": "7c7d5e82e26bf9e35e3fbcbc8b8f20498e4d78dd",
+  "original_biglybt_commit": "cb8c6cb9bb97916cbc7e80338a017200ffc3e71f",
+  "sdk_commit": null,
+  "ci_enabled": false,
+  "scope": "mldht development source foundation only; no binary/catalogue release or full application/plugin parity claim",
+  "files_sha256": {
+    ".gitignore": "862263fa1f46c20f0d1e4dac5ffcc75abd55c08211b2c3864c5f8764b9d87793",
+    "CMakeLists.txt": "d6cdc9ae7e6529ca76da0cf93cc12da615e41238dd7fea067dc22eb55976044d",
+    "LICENSE": "db296f2f7f35bca3a174efb0eb392b3b17bd94b341851429a3dff411b1c2fc73",
+    "README.md": "13d465982eabb4d28a33497c56fcdd5e6c4f3cb91103544e56e1c4482ffd4ec5",
+    "fixture_test.py": "4b15d1f72e1c8731c3469236c6e4ecccb3d1ad8085c4d8242ba9dcbb67b42a66",
+    "policy.cpp": "77e9730d39c6db49130f19a91e60214470d0319508165aa17f10ed8f04891076",
+    "policy.hpp": "0fa999a994e43925b5a8465a9b14d1b7966bdf81190817084ccca720ba9a9b7d",
+    "policy_driver.cpp": "376971f9f76769fe7d7581257ac6615bbcd5cee3e669e66a94023b88c25bd9a2",
+    "fixtures/input.tsv": "b610db79b5c45d5994ee13b5435da5334543a17bfad17a087f9122b19e55486b",
+    "fixtures/manifest.json": "2c76382053bc4404329446fef9ce2327e101aa5ebd1c52fe2abb4c80d4d7971a",
+    "fixtures/original.expected": "be466e6f3175565bf4fcb8f9a44b1c7b0986012cf60486552f4a5be0c09cb31c",
+    "ci/policy.yml": "67016dd51f4dab500b05f348c652c21e0e74feec34493ea66d620e491626e998"
+  }
+}
