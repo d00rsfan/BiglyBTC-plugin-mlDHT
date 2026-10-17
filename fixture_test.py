@@ -6,9 +6,13 @@ import shutil
 import subprocess
 import sys
 import tempfile
-root = pathlib.Path(__file__).resolve().parents[3] / 'migration/fixtures/mldht-policies'
+project = pathlib.Path(__file__).resolve().parent
+root = project / 'fixtures'
 if not root.is_dir():
-    root = pathlib.Path(__file__).resolve().parent / 'fixtures'
+    workspace = project
+    for _ in range(3):
+        workspace = workspace.parent
+    root = workspace / 'migration/fixtures/mldht-policies'
 manifest = json.loads((root/'manifest.json').read_text())
 for name, digest in manifest['files'].items():
     assert hashlib.sha256((root/name).read_bytes()).hexdigest() == digest
