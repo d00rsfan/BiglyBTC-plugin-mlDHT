@@ -34,3 +34,11 @@ Wrapper policy files are GPL-2.0-or-later (LICENSE). Identity files are MPL-2.0
 (LICENSES/MPL-2.0.txt), preserving the original engine source grant. Identity
 fixtures live under `migration/fixtures/mldht-identity` in the workspace or
 `identity-fixtures/` in the independent export.
+
+## Continuous integration
+
+The workflow is [`.github/workflows/policy.yml`](.github/workflows/policy.yml). [View runs](https://github.com/d00rsfan/BiglyBTC-plugin-mlDHT/actions).
+
+It runs on GitHub-hosted Ubuntu 24.04 runners for pushes to `main`, pull requests, and manual dispatch.
+
+For future workflow changes, push using this repository's SSH URL (`git@github.com:d00rsfan/BiglyBTC-plugin-mlDHT.git`). HTTPS pushes authenticated with an OAuth token require the additional `workflow` scope to add or update workflow files. Viewing public Actions runs does not require that scope.

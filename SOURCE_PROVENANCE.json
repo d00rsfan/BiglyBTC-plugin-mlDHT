@@ -3,14 +3,14 @@
   "local_review_commit": "ebb5027707ad7d5fe78cf94ae2ed90e56f395d63",
   "original_biglybt_commit": "cb8c6cb9bb97916cbc7e80338a017200ffc3e71f",
   "sdk_commit": null,
-  "ci_enabled": false,
+  "ci_enabled": true,
   "scope": "mldht development source foundation only; no binary/catalogue release or full application/plugin parity claim",
   "files_sha256": {
     ".gitignore": "862263fa1f46c20f0d1e4dac5ffcc75abd55c08211b2c3864c5f8764b9d87793",
     "CMakeLists.txt": "8dbb959ba2c06f7fdfe80c3a5f18fd357cb4f80e8e2db7908a654a08447b1f81",
     "LICENSE": "db296f2f7f35bca3a174efb0eb392b3b17bd94b341851429a3dff411b1c2fc73",
     "LICENSES/MPL-2.0.txt": "fab3dd6bdab226f1c08630b1dd917e11fcb4ec5e1e020e2c16f83a0a13863e85",
-    "README.md": "01ea849de9c74fe1e911a971f3360a225355a18d3be4538f2a9cc1bd99bfa5f9",
+    "README.md": "0857e043aa2c60f447ab365d2e02b3212701492d91dad20d5ba6d7f3ff4c36cd",
     "fixture_test.py": "8683efc9bfcda23fa95858d8ffe4058afb8f7d9bbdda16a30837f23b2c3711ed",
     "identity.cpp": "fb3f6f1d535ce2b60cf7534872b2a161a62dd3ac258b857c93e37e0f32aefe8b",
     "identity.hpp": "3ab542b58b746d1630ff666cab83486efa48baeca2c09137a211c168477a3657",
@@ -143,6 +143,15 @@
     "identity-fixtures/unicode-comment.input": "102eac84c5b7ae50623059cb556f05e3576fea21fdafaef6c38d4ea48b9f4309",
     "identity-fixtures/unicode-digits.input": "7f94c81ddb1bb436096c9a163018abc5c10b73811ccbf46de34e0c605f9f913e",
     "identity-fixtures/upper.input": "4e6aed66b0d9f60f69b7068917f36a22026fd29ad9352652ac0a06fe6e3c4666",
-    "ci/policy.yml": "67016dd51f4dab500b05f348c652c21e0e74feec34493ea66d620e491626e998"
+    ".github/workflows/policy.yml": "67016dd51f4dab500b05f348c652c21e0e74feec34493ea66d620e491626e998"
+  },
+  "ci_activation": {
+    "date": "2026-10-18",
+    "previous_public_commit": "f9f3e2364b3a12849e84b025067eeb61a845d475",
+    "transport": "ssh",
+    "workflow_path": ".github/workflows/policy.yml",
+    "runner": "GitHub-hosted ubuntu-24.04",
+    "mode": "push, pull_request, workflow_dispatch",
+    "note": "Workflow registered; this manifest does not assert a successful remote run."
   }
 }
