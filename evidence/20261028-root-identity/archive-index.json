@@ -1,0 +1,480 @@
+{
+  "members": [
+    {
+      "path": "build/mainline-identity-20261028-review/manifest.json",
+      "bytes": 298,
+      "sha256": "869672b6809dd68cf9ebaf0f5288c3f7c5d22672627b08898d5c04aab3cab381"
+    },
+    {
+      "path": "build/mainline-identity-20261028-review/review.json",
+      "bytes": 4876,
+      "sha256": "56e3e43eeb29613b644472e55ed5241205371eda29d505ec03adde6bac5a6727"
+    },
+    {
+      "path": "build/mainline-identity-20261028/ADOPTION.md",
+      "bytes": 1832,
+      "sha256": "b4fe57c4c5b75063f3d5619199754e7ee3a9b90b6a214ea4814cdbb079dd91b7"
+    },
+    {
+      "path": "build/mainline-identity-20261028/NEXT.md",
+      "bytes": 3852,
+      "sha256": "0c1124b229c53dcee220aa73ad55d6a01ed7e491a195e553114ecb8eecbe82bd"
+    },
+    {
+      "path": "build/mainline-identity-20261028/integration/run-r1/build.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "build/mainline-identity-20261028/integration/run-r1/build.stdout",
+      "bytes": 721,
+      "sha256": "defdb09f9b6968606e41f49c69ad085820b54f33a96821af58386c2e7e717319"
+    },
+    {
+      "path": "build/mainline-identity-20261028/integration/run-r1/commands.json",
+      "bytes": 3588,
+      "sha256": "1e9f4401f491bd12c296313c676b8fe31a790d0171784d36f8aafa2e1086bb83"
+    },
+    {
+      "path": "build/mainline-identity-20261028/integration/run-r1/compiler.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "build/mainline-identity-20261028/integration/run-r1/compiler.stdout",
+      "bytes": 300,
+      "sha256": "325aa607160ea4cc23f3fb04f3a801b16d4b19ab635ebed094f6fca82b9f7f93"
+    },
+    {
+      "path": "build/mainline-identity-20261028/integration/run-r1/configure.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "build/mainline-identity-20261028/integration/run-r1/configure.stdout",
+      "bytes": 525,
+      "sha256": "9d40cd36480f885e77ac058518360bb9cce169ae0e0af5bfe45eb090dee03e71"
+    },
+    {
+      "path": "build/mainline-identity-20261028/integration/run-r1/inventory.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "build/mainline-identity-20261028/integration/run-r1/inventory.stdout",
+      "bytes": 2458,
+      "sha256": "b39ecc8fe3bb13fc8d3b7b4eaa70b61a65e744dc4d8ff1d5e927cabbd784a682"
+    },
+    {
+      "path": "build/mainline-identity-20261028/integration/run-r1/ninja-commands.txt",
+      "bytes": 2962,
+      "sha256": "9451cc3834604c8bcd6f57372c6c6826575a846683f775f5c2305282055d2cf5"
+    },
+    {
+      "path": "build/mainline-identity-20261028/integration/run-r1/result.json",
+      "bytes": 4727,
+      "sha256": "1759abe88de68fe40129cc57f38f08213257bfd1d6670c265580e09bc3b819b7"
+    },
+    {
+      "path": "build/mainline-identity-20261028/integration/run-r1/tests.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "build/mainline-identity-20261028/integration/run-r1/tests.stdout",
+      "bytes": 523,
+      "sha256": "02120d9305d04272c7a0742aa30a45fb57727232828ed604b36aa692850b519f"
+    },
+    {
+      "path": "build/mainline-identity-20261028/integration/run-r1/tests.xml",
+      "bytes": 948,
+      "sha256": "a7fb1e0eadb8e866ead574f15acf57d27792a9b5e7b2e5150c2ed718cfaea179"
+    },
+    {
+      "path": "build/mainline-identity-20261028/manifest.json",
+      "bytes": 4249,
+      "sha256": "808458b990b6c1713d031752867b333e2d2030dbc7676647b1202ff76fb5e90a"
+    },
+    {
+      "path": "build/mainline-identity-20261028/oracle/IdentityDerivationOracle.java",
+      "bytes": 3418,
+      "sha256": "26d51bf2d54e1dd07708d8a9afb183c1fbbd9f29a014d54a154ac936dae2fe93"
+    },
+    {
+      "path": "build/mainline-identity-20261028/oracle/ReferenceFence.java",
+      "bytes": 4931,
+      "sha256": "ee2c0200a2dfe240f7db4e4dad636b35d6a630561994d261e7182d74085b1933"
+    },
+    {
+      "path": "build/mainline-identity-20261028/oracle/adapters/lbms/plugins/mldht/kad/utils/ThreadLocalUtils.java",
+      "bytes": 335,
+      "sha256": "a2f9ff7f6e851c820cbb979f143315f9ff5d92ff9b9bb4d32866c69711a11538"
+    },
+    {
+      "path": "build/mainline-identity-20261028/oracle/inputs.tsv",
+      "bytes": 42912,
+      "sha256": "b396370b331f2ca27cd20a9b674357d418727fe72b1b2ee0a69fa2a6e480d072"
+    },
+    {
+      "path": "build/mainline-identity-20261028/oracle/make_inputs.py",
+      "bytes": 1159,
+      "sha256": "2b64a8bdfe460571bc5fdc5aad2c36b81a86436ce44c932acf37638e04191fe5"
+    },
+    {
+      "path": "build/mainline-identity-20261028/oracle/registerId.java.txt",
+      "bytes": 240,
+      "sha256": "c1138e074cf095edb70fbfac774c432101a90dfb826868f4cf05fe5ebd19deeb"
+    },
+    {
+      "path": "build/mainline-identity-20261028/oracle/removeId.java.txt",
+      "bytes": 202,
+      "sha256": "ba715b91c50abc9b00e0cea9cae2d4ed2486d5a571caf82f7ac7806a6c4bac64"
+    },
+    {
+      "path": "build/mainline-identity-20261028/oracle/run.py",
+      "bytes": 4406,
+      "sha256": "775c6d92ec4058763ed6da9487a714a3836384e604405598573e27fa18b3e655"
+    },
+    {
+      "path": "build/mainline-identity-20261028/oracle/upstream/lbms/plugins/mldht/kad/Key.java",
+      "bytes": 13054,
+      "sha256": "cde783a1293f205c3ebfa123a869cce28ed304466cffe130d6e62a4eaeffd0eb"
+    },
+    {
+      "path": "build/mainline-identity-20261028/oracle/upstream/lbms/plugins/mldht/kad/Prefix.java",
+      "bytes": 5126,
+      "sha256": "679e6ff0becd905a0063a40984a62407e3497f7d8cc84777d7418ff92c4e0d79"
+    },
+    {
+      "path": "build/mainline-identity-20261028/oracle/upstream/lbms/plugins/mldht/utils/Radixable.java",
+      "bytes": 492,
+      "sha256": "0e7197be98d6d4232ebde053931ab3de42ef73423be9054465a438e0af4dbdc6"
+    },
+    {
+      "path": "build/mainline-identity-20261028/oracle/upstream/the8472/utils/Arrays.java",
+      "bytes": 3509,
+      "sha256": "54180feb4fd6c58d68363ea01b8bfa070ac12f3d0709a3fedac1218b4857d3c2"
+    },
+    {
+      "path": "build/mainline-identity-20261028/oracle/upstream/the8472/utils/CowSet.java",
+      "bytes": 3092,
+      "sha256": "45b0de88272d39dd8fbe088eaf88ddff33864d366f3f782b7f9eb7a3acde278a"
+    },
+    {
+      "path": "build/mainline-identity-20261028/plugin-adoption.json",
+      "bytes": 756,
+      "sha256": "124f097813dc29efc0a0d4096ea97dd7f6372fc4ede8cf734f7ef8b879a6efd6"
+    },
+    {
+      "path": "build/mainline-identity-20261028/plugin-source-commit.json",
+      "bytes": 666,
+      "sha256": "32e848f97394871d02b7094a6e5e17b9501832fd55807f9c227ec6eec8440be1"
+    },
+    {
+      "path": "build/mainline-identity-20261028/qualification/manifest.json",
+      "bytes": 545,
+      "sha256": "9df85aece83a917848d5e5aafdc6ce049e942cf12eed331f18c78e21f17917fc"
+    },
+    {
+      "path": "build/mainline-identity-20261028/qualification/pins.json",
+      "bytes": 1051,
+      "sha256": "0b95669824547a98ede896b6ed8ec43f7c978c00609dec9e6d73c5e236a74f75"
+    },
+    {
+      "path": "build/mainline-identity-20261028/qualification/qualify.py",
+      "bytes": 6707,
+      "sha256": "71fcf6a649bc848ed14ab5ef7d2e9275ae60ef4c1a52ec003ff6ac1be91ba1bd"
+    },
+    {
+      "path": "build/mainline-identity-20261028/qualification/runs/run-r1/asan-ubsan-compile-0.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "build/mainline-identity-20261028/qualification/runs/run-r1/asan-ubsan-compile-0.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "build/mainline-identity-20261028/qualification/runs/run-r1/asan-ubsan-compile-1.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "build/mainline-identity-20261028/qualification/runs/run-r1/asan-ubsan-compile-1.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "build/mainline-identity-20261028/qualification/runs/run-r1/asan-ubsan-compiler.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "build/mainline-identity-20261028/qualification/runs/run-r1/asan-ubsan-compiler.stdout",
+      "bytes": 169,
+      "sha256": "71f7f0cbe4615aa2e78a89fe5f6a79bdcef0fe7f78abf5880ab82469c2bb2920"
+    },
+    {
+      "path": "build/mainline-identity-20261028/qualification/runs/run-r1/asan-ubsan-link.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "build/mainline-identity-20261028/qualification/runs/run-r1/asan-ubsan-link.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "build/mainline-identity-20261028/qualification/runs/run-r1/asan-ubsan-replay.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "build/mainline-identity-20261028/qualification/runs/run-r1/asan-ubsan-replay.stdout",
+      "bytes": 92768,
+      "sha256": "a0d4e3615bd1844473da41d26886cd2ca55c2b9d2a73b41e5606df25c74fc4fa"
+    },
+    {
+      "path": "build/mainline-identity-20261028/qualification/runs/run-r1/asan-ubsan-runtime-libraries.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "build/mainline-identity-20261028/qualification/runs/run-r1/asan-ubsan-runtime-libraries.stdout",
+      "bytes": 471,
+      "sha256": "effadea196792dee8fddf84d3cc4317aec0341669f4f79812e9f8fe6307486dd"
+    },
+    {
+      "path": "build/mainline-identity-20261028/qualification/runs/run-r1/asan-ubsan-unit.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "build/mainline-identity-20261028/qualification/runs/run-r1/asan-ubsan-unit.stdout",
+      "bytes": 65,
+      "sha256": "138fcde2b0666e5c44d9a163bbd3ea4c818c4cdaddcae3348f1d6cd80e0453c7"
+    },
+    {
+      "path": "build/mainline-identity-20261028/qualification/runs/run-r1/asan-ubsan/build-receipt.json",
+      "bytes": 5516,
+      "sha256": "a14070376c3001cb808242e689fc91071903f21617dec04706895a877db5200c"
+    },
+    {
+      "path": "build/mainline-identity-20261028/qualification/runs/run-r1/clang24-compile-0.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "build/mainline-identity-20261028/qualification/runs/run-r1/clang24-compile-0.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "build/mainline-identity-20261028/qualification/runs/run-r1/clang24-compile-1.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "build/mainline-identity-20261028/qualification/runs/run-r1/clang24-compile-1.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "build/mainline-identity-20261028/qualification/runs/run-r1/clang24-compiler.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "build/mainline-identity-20261028/qualification/runs/run-r1/clang24-compiler.stdout",
+      "bytes": 169,
+      "sha256": "71f7f0cbe4615aa2e78a89fe5f6a79bdcef0fe7f78abf5880ab82469c2bb2920"
+    },
+    {
+      "path": "build/mainline-identity-20261028/qualification/runs/run-r1/clang24-link.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "build/mainline-identity-20261028/qualification/runs/run-r1/clang24-link.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "build/mainline-identity-20261028/qualification/runs/run-r1/clang24-replay.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "build/mainline-identity-20261028/qualification/runs/run-r1/clang24-replay.stdout",
+      "bytes": 92768,
+      "sha256": "a0d4e3615bd1844473da41d26886cd2ca55c2b9d2a73b41e5606df25c74fc4fa"
+    },
+    {
+      "path": "build/mainline-identity-20261028/qualification/runs/run-r1/clang24-runtime-libraries.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "build/mainline-identity-20261028/qualification/runs/run-r1/clang24-runtime-libraries.stdout",
+      "bytes": 390,
+      "sha256": "415ba7e0ee75cfdac442359f7d446351a7ce4862cafc531663af47ba64eb47f1"
+    },
+    {
+      "path": "build/mainline-identity-20261028/qualification/runs/run-r1/clang24-unit.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "build/mainline-identity-20261028/qualification/runs/run-r1/clang24-unit.stdout",
+      "bytes": 65,
+      "sha256": "138fcde2b0666e5c44d9a163bbd3ea4c818c4cdaddcae3348f1d6cd80e0453c7"
+    },
+    {
+      "path": "build/mainline-identity-20261028/qualification/runs/run-r1/clang24/build-receipt.json",
+      "bytes": 5159,
+      "sha256": "695a01094e9f6a8b2256dd59f24cdae01da32ad3a023c6a310bd609ec64ea62d"
+    },
+    {
+      "path": "build/mainline-identity-20261028/qualification/runs/run-r1/commands.json",
+      "bytes": 18908,
+      "sha256": "39b2747c301e543788c9bb5c8a84b317f75f97a3456ea1dff6749163ac72ce45"
+    },
+    {
+      "path": "build/mainline-identity-20261028/qualification/runs/run-r1/gcc16-compile-0.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "build/mainline-identity-20261028/qualification/runs/run-r1/gcc16-compile-0.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "build/mainline-identity-20261028/qualification/runs/run-r1/gcc16-compile-1.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "build/mainline-identity-20261028/qualification/runs/run-r1/gcc16-compile-1.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "build/mainline-identity-20261028/qualification/runs/run-r1/gcc16-compiler.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "build/mainline-identity-20261028/qualification/runs/run-r1/gcc16-compiler.stdout",
+      "bytes": 300,
+      "sha256": "325aa607160ea4cc23f3fb04f3a801b16d4b19ab635ebed094f6fca82b9f7f93"
+    },
+    {
+      "path": "build/mainline-identity-20261028/qualification/runs/run-r1/gcc16-link.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "build/mainline-identity-20261028/qualification/runs/run-r1/gcc16-link.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "build/mainline-identity-20261028/qualification/runs/run-r1/gcc16-runtime-libraries.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "build/mainline-identity-20261028/qualification/runs/run-r1/gcc16-runtime-libraries.stdout",
+      "bytes": 390,
+      "sha256": "5390395e2ed2b56fb861eac775fcaf9292c1e6dbca59ed57ee5784cf6abaf858"
+    },
+    {
+      "path": "build/mainline-identity-20261028/qualification/runs/run-r1/gcc16/build-receipt.json",
+      "bytes": 4867,
+      "sha256": "58bf8a4dc996289588ac76e451a403d229a24bcfc904b2f4fa4d86856424bf81"
+    },
+    {
+      "path": "build/mainline-identity-20261028/qualification/runs/run-r1/original-and-gcc-trace.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "build/mainline-identity-20261028/qualification/runs/run-r1/original-and-gcc-trace.stdout",
+      "bytes": 48,
+      "sha256": "7007df15cc99dc259a5d1f21aa95373b4966f87fdcd2d6be22b515c5fa1099c3"
+    },
+    {
+      "path": "build/mainline-identity-20261028/qualification/runs/run-r1/result.json",
+      "bytes": 27648,
+      "sha256": "e391906b9ad4953a499e2d991f2e84e6445b08a4a8049d8e208f80d98aeb7e1c"
+    },
+    {
+      "path": "build/mainline-identity-20261028/runs/run-r1-original/commands.json",
+      "bytes": 3399,
+      "sha256": "e67cbb88675adce6a7d074a514c130d6378ccf751dd7a6afb5ed4d350e037590"
+    },
+    {
+      "path": "build/mainline-identity-20261028/runs/run-r1-original/java-version.stderr",
+      "bytes": 177,
+      "sha256": "e55b949b4794157555eb56fdc97fd948533bd2580523ab9188cfdcf10dee4e22"
+    },
+    {
+      "path": "build/mainline-identity-20261028/runs/run-r1-original/java-version.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "build/mainline-identity-20261028/runs/run-r1-original/javac.stderr",
+      "bytes": 194,
+      "sha256": "10200073bec1f9ec15605ab4f68757ab3fd901251fd8114ed73f53c04144d5b7"
+    },
+    {
+      "path": "build/mainline-identity-20261028/runs/run-r1-original/javac.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "build/mainline-identity-20261028/runs/run-r1-original/native-replay.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "build/mainline-identity-20261028/runs/run-r1-original/native-replay.stdout",
+      "bytes": 92768,
+      "sha256": "a0d4e3615bd1844473da41d26886cd2ca55c2b9d2a73b41e5606df25c74fc4fa"
+    },
+    {
+      "path": "build/mainline-identity-20261028/runs/run-r1-original/native-unit.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "build/mainline-identity-20261028/runs/run-r1-original/native-unit.stdout",
+      "bytes": 65,
+      "sha256": "138fcde2b0666e5c44d9a163bbd3ea4c818c4cdaddcae3348f1d6cd80e0453c7"
+    },
+    {
+      "path": "build/mainline-identity-20261028/runs/run-r1-original/original.stderr",
+      "bytes": 148,
+      "sha256": "e25cc1be7556c40132c07d721b51d8d28b2184910477910bd4ebc48dbc3a7189"
+    },
+    {
+      "path": "build/mainline-identity-20261028/runs/run-r1-original/original.stdout",
+      "bytes": 92768,
+      "sha256": "a0d4e3615bd1844473da41d26886cd2ca55c2b9d2a73b41e5606df25c74fc4fa"
+    },
+    {
+      "path": "build/mainline-identity-20261028/runs/run-r1-original/result.json",
+      "bytes": 2488,
+      "sha256": "29e58333502f06b0b49d4add2448a4074588f49117c18e66c704fbf021050a0b"
+    },
+    {
+      "path": "build/mainline-identity-20261028/source-pins.json",
+      "bytes": 2739,
+      "sha256": "25abf4954bd37933cb7b8d571fa58638b457c1274364c0cdcc9af206306f4223"
+    }
+  ],
+  "excluded": "No build directories, objects, binaries, SDK/provider trees or private/live profiles. Exact input/output/source/upstream/command receipts retained."
+}

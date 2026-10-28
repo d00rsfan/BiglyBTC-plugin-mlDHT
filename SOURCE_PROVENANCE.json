@@ -153,5 +153,34 @@
     "runner": "GitHub-hosted ubuntu-24.04",
     "mode": "push, pull_request, workflow_dispatch",
     "note": "Workflow registered; this manifest does not assert a successful remote run."
-  }
+  },
+  "bounded_reviews": [
+    {
+      "component": "identity.root_derivation",
+      "state": "in_progress",
+      "implementation_commit": "295e90c3c77de67c9b726bb711b4496dc73fd266",
+      "native_parent": "adb6021c7e43281e0e6d84a9c937f4c9a934eef8",
+      "source_coverage": [
+        {
+          "repository": "https://github.com/BiglySoftware/BiglyBT-plugin-mlDHT.git",
+          "commit": "3b12515c5541ed75cfb4f795b672d4e786df9f45",
+          "scope": "Declared engine pairing only"
+        },
+        {
+          "repository": "https://github.com/the8472/mldht.git",
+          "commit": "067f434eb60323123a5e885093ab2504ab10d5f9",
+          "scope": "Key.getDerivedKey and Node.registerId/removeId; read/format prior code reused"
+        },
+        {
+          "repository": "https://github.com/BiglySoftware/mldht.git",
+          "commit": "f9290cbd63805229aef418639b781696c5fa1573",
+          "scope": "Preserved historical identity import/format audit; matching selected methods only"
+        }
+      ],
+      "verification": "evidence/20261028-root-identity/verification.json",
+      "review": "evidence/20261028-root-identity/REVIEW.md",
+      "full_runtime_qualified": false,
+      "first_ported_baseline_advanced": false
+    }
+  ]
 }

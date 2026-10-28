@@ -42,3 +42,7 @@ The workflow is [`.github/workflows/policy.yml`](.github/workflows/policy.yml). 
 It runs on GitHub-hosted Ubuntu 24.04 runners for pushes to `main`, pull requests, and manual dispatch.
 
 For future workflow changes, push using this repository's SSH URL (`git@github.com:d00rsfan/BiglyBTC-plugin-mlDHT.git`). HTTPS pushes authenticated with an OAuth token require the additional `workflow` scope to add or update workflow files. Viewing public Actions runs does not require that scope.
+
+## Original root-to-server derivation
+
+The pure original root derivation and bounded first-free identity selector are now locally qualified. [Review and exact evidence](evidence/20261028-root-identity/REVIEW.md):648 actual original observations matched GCC16, Clang24 and leak-enabled ASan/UBSan; clean plugin CMake integration passed all3 suites. The original wrapper-declared paired067 source is now recovered; shipped-artifact and operational identity equivalence remain unproved. Existing f929 import/format baselines and parser/writer bodies remain unchanged. No service/profile/cache/writeback activation is enabled.

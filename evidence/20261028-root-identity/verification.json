@@ -1,0 +1,79 @@
+{
+  "schema": 1,
+  "status": "PASS_BOUNDED_PURE_ROOT_IDENTITY",
+  "implementation_commit": "295e90c3c77de67c9b726bb711b4496dc73fd266",
+  "implementation_repository": "https://github.com/d00rsfan/BiglyBTC-plugin-mlDHT.git",
+  "capsule_manifest_sha256": "808458b990b6c1713d031752867b333e2d2030dbc7676647b1202ff76fb5e90a",
+  "native_plugin_parent": "adb6021c7e43281e0e6d84a9c937f4c9a934eef8",
+  "original_sources": {
+    "wrapper": "3b12515c5541ed75cfb4f795b672d4e786df9f45",
+    "paired_engine": "067f434eb60323123a5e885093ab2504ab10d5f9",
+    "historical_engine_unchanged": "f9290cbd63805229aef418639b781696c5fa1573"
+  },
+  "source_sha256": {
+    "identity.cpp": "37a830751932c28daf8c99ddc17400b0f72cf65b5ad8ee9e406943e600cf74bc",
+    "CMakeLists.txt": "23d66462834fdddecbea5ab75a046c2eed87e87c9271d593187c8f90c6814f42",
+    "identity.hpp": "d1df373ebacb07dddc1736f3a93310c7318a22a33d31179c8b5d31de1e36f6de",
+    "identity_derivation_tests.cpp": "e2ecbd568ea536882584e04ac85a523dea886aa5e2d7bffb76d9fc6034aea716"
+  },
+  "source_association": "Standalone binaries used exact capsule source808 bytes; the three CPP/header inputs match implementation commit by SHA. CMake integration ran the clean committed295 source. Whole snapshots are not equated.",
+  "actual_original_rows": 648,
+  "actual_original_derivation_rows": 600,
+  "actual_original_register_remove_rows": 48,
+  "original_java_executions": 1,
+  "standalone_lanes": {
+    "gcc16": {
+      "status": "PASS",
+      "observations": 648,
+      "binary_sha256": "fc61981524f3db23b6711049e198871574e8dfabe27f47f19251e530ba0c9b51",
+      "output_sha256": "a0d4e3615bd1844473da41d26886cd2ca55c2b9d2a73b41e5606df25c74fc4fa"
+    },
+    "clang24": {
+      "status": "PASS",
+      "observations": 648,
+      "binary_sha256": "26821cdc7eec535a30c7f23bf86f94b3cbc70b844ee4edd57365fd40df598af5",
+      "output_sha256": "a0d4e3615bd1844473da41d26886cd2ca55c2b9d2a73b41e5606df25c74fc4fa"
+    },
+    "asan-ubsan": {
+      "status": "PASS",
+      "observations": 648,
+      "binary_sha256": "6661636b96166908c351856e4e83c5ffb05d9de734e1cbd48755110ba2b37d7f",
+      "output_sha256": "a0d4e3615bd1844473da41d26886cd2ca55c2b9d2a73b41e5606df25c74fc4fa"
+    }
+  },
+  "standalone_result_sha256": "e391906b9ad4953a499e2d991f2e84e6445b08a4a8049d8e208f80d98aeb7e1c",
+  "original_result_sha256": "29e58333502f06b0b49d4add2448a4074588f49117c18e66c704fbf021050a0b",
+  "golden_sha256": "a0d4e3615bd1844473da41d26886cd2ca55c2b9d2a73b41e5606df25c74fc4fa",
+  "integration": {
+    "status": "PASS",
+    "actual_ctest_suites": 3,
+    "suite_names": [
+      "original-mldht-host-policies",
+      "original-mldht-identity",
+      "original-mldht-identity-derivation"
+    ],
+    "source_commit": "295e90c3c77de67c9b726bb711b4496dc73fd266",
+    "result_sha256": "1759abe88de68fe40129cc57f38f08213257bfd1d6670c265580e09bc3b819b7",
+    "xml_sha256": "a7fb1e0eadb8e866ead574f15acf57d27792a9b5e7b2e5150c2ed718cfaea179",
+    "compiler_jobs": 1
+  },
+  "source_review": {
+    "manifest_sha256": "869672b6809dd68cf9ebaf0f5288c3f7c5d22672627b08898d5c04aab3cab381",
+    "review_sha256": "56e3e43eeb29613b644472e55ed5241205371eda29d505ec03adde6bac5a6727",
+    "subject_execution": false
+  },
+  "archive": {
+    "path": "evidence/20261028-root-identity/retained-evidence.tar.gz",
+    "sha256": "61f4ab5878c7f57a3f1c919b48d8f01150d9c13d2bc77a62b3953fc6eec4cadc",
+    "members": 95,
+    "bytes": 66438
+  },
+  "existing_parser_and_writer_preserved": true,
+  "active_input_bound": 4096,
+  "runtime_activation": false,
+  "original_profile_access": false,
+  "network_used": false,
+  "whole_engine_qualification": false,
+  "shipped_jar_equivalence": false,
+  "hosted_ci_at_publication": "pending; final push triggers existing unchanged workflow"
+}
