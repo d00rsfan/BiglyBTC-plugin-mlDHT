@@ -24,3 +24,10 @@ target_compile_options(mldht-identity-driver PRIVATE -Wall -Wextra -Wpedantic -W
 add_test(NAME original-mldht-identity COMMAND Python3::Interpreter
   "${CMAKE_CURRENT_SOURCE_DIR}/identity_fixture_test.py" "$<TARGET_FILE:mldht-identity-driver>")
 set_tests_properties(original-mldht-identity PROPERTIES TIMEOUT 90)
+
+# Additive pure primitive qualification; no DHT activation or profile IO.
+add_executable(mldht-identity-derivation-tests identity_derivation_tests.cpp)
+target_link_libraries(mldht-identity-derivation-tests PRIVATE biglybtc_mldht_identity)
+target_compile_options(mldht-identity-derivation-tests PRIVATE -Wall -Wextra -Wpedantic -Werror)
+add_test(NAME original-mldht-identity-derivation COMMAND mldht-identity-derivation-tests)
+set_tests_properties(original-mldht-identity-derivation PROPERTIES TIMEOUT 30)

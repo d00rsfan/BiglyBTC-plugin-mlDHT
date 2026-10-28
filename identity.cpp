@@ -70,4 +70,51 @@ std::string identityHex(const IdentityKey& key) {
   return result;
 }
 std::string encodeNewIdentity(const IdentityKey& key) { return identityHex(key) + '\n'; }
+// Key.getDerivedKey/Node.registerId at paired067f434eb60323123a5e885093ab2504ab10d5f9.
+// Historical f929 bodies match; no runtime ID/provider activation is performed.
+namespace {
+std::uint32_t reverseIndexBits(std::uint32_t value) noexcept {
+  std::uint32_t result = 0;
+  for (unsigned bit = 0; bit < 32; ++bit) {
+    result = (result << 1) | (value & 1U);
+    value >>= 1;
+  }
+  return result;
+}
+}
+IdentityKey deriveOriginalIdentity(const IdentityKey& root, std::uint32_t indexBits) noexcept {
+  IdentityKey result = root;
+  const auto reversed = reverseIndexBits(indexBits);
+  for (unsigned i = 0; i < 4; ++i) {
+    result[i] ^= static_cast<std::uint8_t>(reversed >> (24U - i * 8U));
+  }
+  return result;
+}
+std::expected<DerivedIdentitySelection, IdentityDerivationError> selectOriginalIdentity(
+    const IdentityKey& root, std::span<const IdentityKey> active) noexcept {
+  if (active.size() > MaximumActiveIdentities) {
+    return std::unexpected(IdentityDerivationError::TooManyActive);
+  }
+  // Derivation is bijective over the first32 bits and leaves the tail unchanged.
+  // Invert it to mark occupied indices; no allocation or quadratic scan is needed.
+  std::array<bool, MaximumActiveIdentities + 1> occupied{};
+  for (const auto& key : active) {
+    bool tailMatches = true;
+    for (std::size_t i = 4; i < key.size(); ++i) {
+      if (key[i] != root[i]) { tailMatches = false; break; }
+    }
+    if (!tailMatches) { continue; }
+    std::uint32_t delta = 0;
+    for (std::size_t i = 0; i < 4; ++i) {
+      delta = (delta << 8) | static_cast<std::uint32_t>(key[i] ^ root[i]);
+    }
+    const auto index = reverseIndexBits(delta);
+    if (index <= active.size()) { occupied[index] = true; }
+  }
+  std::uint32_t first = 0;
+  // At most active.size() distinct indices can be occupied, so this is bounded.
+  while (occupied[first]) { ++first; }
+  return DerivedIdentitySelection{deriveOriginalIdentity(root, first), first};
+}
+
 }
