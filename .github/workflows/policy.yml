@@ -1,21 +1,46 @@
-name: mlDHT host policy contract
+name: mlDHT host policy and identity compatibility
 on:
   push:
-    branches: [main]
+    branches: [master]
   pull_request:
   workflow_dispatch:
 permissions:
   contents: read
 jobs:
-  sdk:
-    runs-on: ubuntu-24.04
-    timeout-minutes: 10
+  compatibility:
+    runs-on: ubuntu-26.04
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           persist-credentials: false
-      - name: Build and exercise C ABI and module lifecycle
+      - name: Install pinned Ubuntu compiler
         run: |
-          cmake -S . -B "$RUNNER_TEMP/biglybtc-sdk" -G Ninja -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_COMPILER=g++-14
-          nice -n 5 cmake --build "$RUNNER_TEMP/biglybtc-sdk" -j2
-          ctest --test-dir "$RUNNER_TEMP/biglybtc-sdk" --output-on-failure
+          sudo apt-get update
+          sudo apt-get install --yes --no-install-recommends \
+            gcc-16=16-20260322-1ubuntu1 g++-16=16-20260322-1ubuntu1 \
+            libstdc++-16-dev=16-20260322-1ubuntu1 cmake ninja-build python3
+      - name: Build and test the policy and identity libraries
+        run: |
+          cmake -S . -B "$RUNNER_TEMP/biglybtc-mldht" -G Ninja \
+            -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_COMPILER=/usr/bin/g++-16
+          cmake --build "$RUNNER_TEMP/biglybtc-mldht" --parallel 2
+          ctest --test-dir "$RUNNER_TEMP/biglybtc-mldht" --no-tests=error --output-on-failure
+      - name: Archive the tested Release build
+        if: github.event_name != 'pull_request'
+        id: package
+        uses: d00rsfan/BiglyBTC-plugins/.github/actions/package-component@cb9d1f85bb3c1a00e3960ba5108f98e91d54f523
+        with:
+          component: mlDHT
+          kind: host-library
+          build-dir: ${{ runner.temp }}/biglybtc-mldht
+          libraries: libbiglybtc_mldht_policy.a libbiglybtc_mldht_identity.a
+          headers: policy.hpp identity.hpp
+      - name: Upload the versioned component package
+        if: github.event_name != 'pull_request'
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: mlDHT-ubuntu-26.04-amd64
+          path: ${{ steps.package.outputs.directory }}/
+          if-no-files-found: error
+          retention-days: 14
